@@ -1,0 +1,64 @@
+body{
+	background-image: url("../Ressource/fond.jpg");
+	height: 1000px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.parent{
+	background-color: #659DBD;
+	display: grid;
+	place-items:center;
+}
+
+ /* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.listing {
+  list-style: none;
+  margin: 2em;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+}
+
+.listing li {
+  display: flex;
+  flex-direction: column;
+}
+.listing .cta {
+  margin-top: auto;
+  border-top: 1px solid #ffe066;
+  padding: 10px;
+  text-align: center;
+}
+.listing .body {
+  padding: 10px;
+}
+
+td {
+background-color: green;
+}
+
+th{
+background-color: orange;
+}
